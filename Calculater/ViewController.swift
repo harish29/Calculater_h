@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var textlabel: UILabel!
     
     @IBAction func numbers(_ sender: UIButton)
-        
-    
-    
+
     {
+            
+        
         if calculation == true{
             textlabel.text = String(sender.tag-1)
             
@@ -94,7 +94,8 @@ class ViewController: UIViewController {
 
 
 }
-
+    
+  
 }
 
 
